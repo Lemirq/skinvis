@@ -9,6 +9,7 @@ SkinVis AI is an innovative tool designed to detect skin cancer early. Users can
 
 ## How we built it 🛠️
 ![flowchart](https://github.com/Lemirq/skinvis/blob/master/flow.png?raw=true)
+
 We built SkinVis using a robust combination of front-end and back-end technologies. The front end was developed using Next.js, Supabase, and Tailwind CSS, ensuring a seamless and modern user experience. For the UI elements, we incorporated Shadcn UI for a consistent and polished look. On the back end, we employed a Flask API that processes uploaded images, feeding them into our pre-trained VGG16 model. The model then returns a JSON object with the identified class and its probability, providing users with accurate and reliable results.
 
 ## Challenges we ran into ❌
